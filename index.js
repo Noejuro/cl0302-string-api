@@ -1,0 +1,12 @@
+console.log(`
+String() Used to create a new String object. When called instead as a function, it performs type conversion to a primitive string, which is usually more useful. new String(thing), String(thing)
+String.prototype.concat() Concatenates the string arguments to the calling string and returns a new string. str1.concat(' ', str2)
+String.prototype.includes() Performs a case-sensitive search to determine whether one string may be found within another string, returning true or false as appropriate. sentence.includes('word')
+String.prototype.indexOf() Searches the entire calling string, and returns the index of the first occurrence of the specified substring. paragraph.indexOf('dog')
+String.prototype.match()  Retrieves the result of matching a string against a regular expression. paragraph.match(/[A-Z]/g)
+String.prototype.matchAll() Returns an iterator of all results matching a string against a regular expression, including capturing groups. str.matchAll(regexp)
+String.prototype.search() Executes a search for a match between a regular expression and this String object. paragraph.search(regex)
+String.prototype.slice() Extracts a section of a string and returns it as a new string, without modifying the original string. str.slice(31), str.slice(4, 19)
+String.prototype.split() Divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array. str.split(' ')
+String.prototype.trim() Removes whitespace from both ends of a string and returns a new string, without modifying the original string. greeting.trim()
+`)
